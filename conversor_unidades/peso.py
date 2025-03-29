@@ -12,5 +12,5 @@ class Peso:
         return (f"Conversão de Gramo a Kilogramo: ({gramos} / 1000) = {(gramos / 1000):.2f}")
     
     @staticmethod
-    def peso_kg(altura, comprimento, longitude):
+    def calcular_peso_kg(altura, comprimento, longitude):
         return (f"Kilogramo: ({altura} x {comprimento} x {longitude} ) = {(altura * comprimento * longitude):.2f}kg")

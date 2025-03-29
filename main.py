@@ -1,4 +1,4 @@
-from conversor_unidades import Longitud, Temperatura, Peso, Velocidade
+from conversor_unidades import Longitude, Temperatura, Peso, Velocidade
 
 opcao = """ 
 Tipos de conversão
@@ -48,16 +48,16 @@ while True:
             
             if op_long == 1:
                 metro = int(input("Digite o valor do metro: "))
-                print(Longitud.metro_a_kilometro(metro),"\n")
+                print(Longitude.metro_a_kilometro(metro),"\n")
 
             elif op_long == 2:
                 kilometro = int(input("Digite o valor do kilometros: "))
-                print(Longitud.kilometros_a_millas(kilometro),"\n")
+                print(Longitude.kilometros_a_millas(kilometro),"\n")
 
 
             elif op_long == 3:
                 millas = int(input("Digite o valor do millas: "))
-                print(Longitud.millas_a_metros(millas),"\n")
+                print(Longitude.millas_a_metros(millas),"\n")
             
             elif 3 < op_long or op_long < 0:
                 print("Digite uma opção valida ou um número positivo")
@@ -106,7 +106,7 @@ while True:
                 altura = int(input("Digite o valor do altura: "))
                 comprimento = int(input("Digite o valor do comprimento: "))
                 longitude = int(input("Digite o valor do longitude: "))
-                print(Peso.kilogramo(altura, comprimento, longitude),"\n")
+                print(Peso.calcular_peso_kg(altura, comprimento, longitude),"\n")
                 
             elif 4 < op_peso or op_peso < 0:
                 print("Digite uma opção valida ou um número positivo")

@@ -1,4 +1,4 @@
-class Longitud:
+class Longitude:
     @staticmethod
     def metro_a_kilometro(metro):
         return f"Conversão de Metros a Kilometros: ({metro} / 1000) = {(metro / 1000):.2f}"
