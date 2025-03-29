@@ -8,9 +8,7 @@ setup(
     author="Miguel Bengui",
     author_email="leaismiguelss@gmail.com",
     url="https://github.com/Miguel21S/Conversor_de_unidades.git",
-    install_requires=[
-        'numpy',
-    ],
+    install_requires=[],
 )
 
 
