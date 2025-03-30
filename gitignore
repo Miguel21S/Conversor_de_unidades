@@ -1,2 +1,20 @@
 
-setup.py
+# Ignorar archivos de compilación y distribución
+dist/
+build/
+
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ignorar archivos de info
+*.egg-info
+
+# Ignorar entorno virtual
+venv/
+env/
+
+# Ignorar archivos específicos
+pyproject.toml
+LICENSE

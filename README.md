@@ -15,7 +15,7 @@ Se você deseja clonar o repositório, use o seguinte comando:
 Para instalar este projeto, siga os seguintes passos:
 
 ``` 
-pip install conversor-unidades-miguelb
+pip install -i https://test.pypi.org/simple/ conversor-unidades-miguelb
 ```
 ## Uso
 Para usar o conversor de unidades em Python, basta importar as classes correspondentes:
@@ -39,7 +39,7 @@ Se você deseja contribuir para este projeto, siga os seguintes passos:
 5. Abra um Pull Request neste repositório.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE)  para mais detalhes.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE MIT](https://choosealicense.com/licenses/mit/)  para mais detalhes.
 
 ## Tecnologias e Ferramentas
 Este projeto usa as seguintes tecnologias e ferramentas:
