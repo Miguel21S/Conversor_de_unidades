@@ -6,10 +6,12 @@ build-backend = "setuptools.build_meta"
 where = ["src"]
 
 [project]
-name = "conversor_unidades"
+name = "conversor-unidades-miguelb"
 version = "0.1"
 dependencies = ["numpy"]
 description = "Un paquete para convertir unidades de longitud, temperatura, peso y velocidad"
 authors = [{name = "Miguel B. Simão", email = "leaismiguelss@gmail.com"}]
 license = "MIT"
 
+[project.urls]
+Homepage = "https://github.com/Miguel21S/Conversor_de_unidades.git"
